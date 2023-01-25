@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --txt-color: #E1E1E6;
+    --txt-nav-color: #C4C4CC;
+    --txt-nav-selected-color: #FFFFFF;
+    --txt-error: #000000;
+    --button-color: #E1E1E6;
+    --button-selected-color: #FFFFFF;
+    --button-txt-selected-color: #02799D;
+}
+
+.home {
+    --bg-url: url(./assets/bg-home.png);
+}
+
+.home a:nth-child(2){
+    color: var(--txt-nav-selected-color);
+    font-weight: 700;
+}
+
+.universo {
+    --bg-url: url(./assets/bg-universo.png);    
+}
+
+.universo a:nth-child(3){
+    color: var(--txt-nav-selected-color);
+    font-weight: 700;    
+}
+
+.exploracao {
+    --bg-url: url(./assets/bg-exploracao.png);
+}
+
+.exploracao a:nth-child(4) {
+    color: var(--txt-nav-selected-color);
+    font-weight: 700;
+}
+
+._404 {
+    color: var(--txt-error);
+}
+
+body {
+    background: var(--bg-url) no-repeat top center/cover;
+
+    font-family: 'Roboto', sans-serif;
+    color: var(--txt-color);
+
+    height: 100vh;
+}
+
+nav {    
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+    
+    padding: 4rem 7.2rem;
+}
+
+nav a {    
+    font-size: 2.4rem;
+    line-height: 85%;    
+    color: var(--txt-nav-color);
+    text-decoration: none;
+}
+
+a img {
+    width: 5rem;
+    height: 4.2rem;
+}
+
+#app {
+    padding-left: 10.2rem;
+}
+
+#app p {
+    width: 64.8rem;
+
+    font-size: 1.8rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+    line-height: 125%;
+
+    padding-top: 6.3rem;
+    padding-bottom: 1.6rem;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 160%;
+}
+
+.home #app {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.home h1 {
+    padding-top: 17.2rem;
+    padding-bottom: 2.4rem;
+}
+
+.home button {
+    width: 19.5rem;
+    height: 4.8rem;
+
+    border: 2px solid var(--button-color);
+    border-radius: 5px;
+    background: transparent;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+
+    cursor: pointer;    
+}
+
+.home button a {
+    color: var(--button-color);
+    text-decoration: none;
+    padding: 1.5rem 2.5rem;
+}
+
+.home button:hover,
+.home button a:hover {
+    background-color: var(--button-selected-color);
+    color: var(--button-txt-selected-color);
+}
