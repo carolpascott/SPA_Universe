@@ -1,10 +1,24 @@
-criar servidor:
+<h1 align="center"> SPA Universe </h1>
 
-npm init -y
+<p>
+O que foi abordado nesse desafio:
 
-npm install lite-server
+- Conceitos de SPA - Single Page Appplication;
+- Mapeamento de rotas;
+- Assíncrono e promises;
+- Orientação a objetos;
+- Classes e muito mais.
+</p>
 
-em package.json:
-    em scripts, no lugar de test escrever start e na mensagem alterar para lite-server
+<p align="center">
+  <img alt="projeto SPA Universe" src=".github/preview.jpg" width="100%">
+</p>
 
-npm start
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+- Git e Github
+- Figma
